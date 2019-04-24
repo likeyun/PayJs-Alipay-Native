@@ -8,9 +8,9 @@ DEMO
 数据库
 ---
 
-表名（自己设置）
-id(自增int)
-payjs_order_id(varchar32)
-time_end(varchar32)
-total_fee(int16)
-openid(varchat32)
+表名（自己设置）<br/>
+id(自增int)<br/>
+payjs_order_id(varchar32)<br/>
+time_end(varchar32)<br/>
+total_fee(int16)<br/>
+openid(varchat32)<br/>
