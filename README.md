@@ -8,7 +8,7 @@ DEMO
 数据库
 ---
 
-表名（自己设置）<br/>
+表名（config.php里面设置）<br/>
 id(自增int)<br/>
 payjs_order_id(varchar32)<br/>
 time_end(varchar32)<br/>
