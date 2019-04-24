@@ -2,7 +2,7 @@
 // 此页面用于创建订单
 // TANKING
 // LIKEYUNBA.COM
-// 2018-12-26
+// 2019-4-24
 
 header('Content-type: application/json');
 //引入配置文件
@@ -14,7 +14,7 @@ $data = [
     'body'         => 'PAYJS支付宝订单测试',
     'type'         => 'alipay',
     'total_fee'    => 1,
-    'notify_url'   => "http://www.liketube.cn/payjs/notify.php",
+    'notify_url'   => "http://www.xxx.xxx/notify.php",//异步订单接收url
     'out_trade_no' => 'payjs_jspay_demo_' . time(),
 ];
 
