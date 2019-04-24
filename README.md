@@ -5,6 +5,10 @@ DEMO
 ---
 ![20190424125339.png](https://i.loli.net/2019/04/24/5cbfebdb0ab9d.png)
 
+支付演示
+---
+![支付宝支付演示.gif](https://i.loli.net/2019/04/24/5cbfec312d472.gif)
+
 数据库
 ---
 
