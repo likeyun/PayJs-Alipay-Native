@@ -1,5 +1,4 @@
 <?php
-//消除错误提示
 error_reporting(E_ALL ^ E_DEPRECATED);
 header("content-type:application/json");
 //引入配置文件
