@@ -8,7 +8,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
-    <title>里客云邀请码</title>
+    <title>PAYJS发起支付宝扫码支付</title>
     <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
     <style type="text/css">
         #total_fee{
@@ -76,7 +76,7 @@
         window.onload=function(){
             $.ajax({
                 type:"GET",
-                url:"ali.json",
+                url:"alijs.php",
                 dataType:"json",
                 success:function(data){
                     $("#faqipay").html("<a href='"+ data.code_url +"'>立即支付</a>");
@@ -122,8 +122,8 @@
             success: function(data, textStatus) {   
                 if(data.result == '0') {
                 }else{
-                    $("#abc").html("cpK3CFzYx");
-                    $("#fuzhi").html("<button id=\"copyBT\">复制邀请码</button>");
+                    $("#abc").html("这是支付结果..");
+                    $("#fuzhi").html("<button id=\"copyBT\">虚线框内容</button>");
                     $("#qrcode").html("<div class=\"imgcon\"><img src=\"http://likeyunba.com/demo/Alipay-Listen/5c663de220b82.png\"></div>");
                     
                     
@@ -140,7 +140,7 @@
     <form id="form1" onsubmit="return false" action="##" method="post">
         <span id="order_id" style="display: none;"></span><br/>
         <!-- 异步查单 -->
-        <div id="abc">支付后返回这里查看邀请码</div>
+        <div id="abc">支付结果显示在这</div>
         <div id="lunxun" style="display: none;"></div>
     </form>
     <div id="fuzhi"></div>
